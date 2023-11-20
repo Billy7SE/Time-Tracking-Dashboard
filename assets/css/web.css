@@ -1,0 +1,176 @@
+* {
+   margin: 0;
+   padding: 0;
+   color: hsl(236, 100%, 87%);
+}
+.main {
+   /* background-color: burlywood; */
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: hsl(226, 43%, 10%);
+}
+.cont {
+   /* background-color: gray; */
+   width: 50%;
+   height: 60%;
+   gap: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-areas: 
+   "first second third fourth"
+   "first fifth sixth seventh";
+   margin: 10px;
+   padding: 7px;
+   justify-content: center;
+}
+.first {
+   background-color: hsl(235, 46%, 20%);
+   grid-area: first;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+}
+.first {
+   border-radius: 15px;
+}
+.top {
+   background-color: hsl(246, 80%, 60%);
+   height: 70%;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 15px;
+}
+.topin {
+   /* background-color: azure; */
+   width: 90%;
+   height: 85%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 0px;
+   margin-left: 10px;
+}
+.topin img {
+   width: 41%;
+   border: 3px solid white;
+   border-radius: 100%;
+}
+.name {
+   font-size: 25px;
+   width: 100px;
+   /* background-color: red; */
+}
+.report {
+   font-size: 1px;
+}
+.img-box {
+   margin-top: 5px;
+   /* background-color: black; */
+}
+.namebox {
+   margin-bottom: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   /* background-color: black; */
+   gap: 5px;
+}
+.bottom {
+   width: 80%;
+   height: 20%;
+   /* background-color: azure; */
+   /* margin-bottom: 21px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   gap: 10px;
+   margin: auto;
+   gap: 14px
+}
+.second {
+   background-color: hsl(15, 100%, 70%);
+   grid-area: second;
+   border-radius: 21px;
+}
+.third {
+   background-color: hsl(195, 74%, 62%);
+   grid-area: third;
+   border-radius: 21px;
+}
+.fourth {
+   background-color: hsl(348, 100%, 68%);
+   grid-area: fourth;
+   border-radius: 21px;
+}
+.fifth {
+   background-color: hsl(145, 58%, 55%);
+   grid-area: fifth;
+   border-radius: 21px;
+}
+.sixth {
+   background-color: hsl(264, 64%, 52%);
+   grid-area: sixth;
+   border-radius: 21px;
+}
+.seventh {
+   background-color: hsl(43, 84%, 65%);
+   grid-area: seventh;
+   border-radius: 21px;
+}
+.top-img {
+}
+.top-img img {
+   padding-top: 5px;
+   height: 30px;
+   width: 28px;
+}
+.squs {
+   width: 100%;
+   height: 77%;
+   background-color: hsl(235, 46%, 20%);
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 2px;
+   margin-top: 0;
+}
+.squ {
+   width: 85%;
+   height: 75%;
+   /* background-color: azure; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: 0;
+}
+.one {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-size: 16px;
+}
+.one img {
+   height: 5px;
+   width: 15px;
+   padding: 5px;
+}
+.one img:hover {
+   height: 6px;
+   width: 16px;
+}
+.two {
+   font-size: 35px;
+   margin-top: 20px;
+}
+.three {
+   font-size: 1px;
+}
